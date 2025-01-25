@@ -199,6 +199,7 @@
 	(net 81 "Net-(D2-K)")
 	(net 82 "Net-(U1-~{STDBY})")
 	(net 83 "Net-(U1-~{CHRG})")
+	(net 84 "Net-(U5-SW)")
 	(footprint "_custom:C_0603"
 		(layer "F.Cu")
 		(uuid "067b9bd0-8e49-4b2b-9ad1-1e277f8e70f8")
@@ -1232,6 +1233,167 @@
 			(uuid "7d67ed44-4c19-4103-8fac-1a722ec20f8d")
 		)
 		(model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "_custom:C_0603"
+		(layer "F.Cu")
+		(uuid "1fe9f68b-f040-4ec4-a720-d04120bef909")
+		(at 125.6854 1.42462)
+		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
+		(tags "capacitor 0603")
+		(property "Reference" "C5"
+			(at 0 -1.1 0)
+			(layer "F.SilkS")
+			(uuid "bbbdd435-e2ce-4ff8-9404-7062a9d1def8")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ed1a4115-85bb-4b4b-a739-6839beee6fdd")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Footprint" "_custom:C_0603"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff5d164e-00f0-4343-92df-00737c53d132")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b185af3f-ee68-4e15-823b-79f4a70cba51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb739a76-37c9-4c81-a400-daf52ac37927")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d21da1be-0155-4f4c-ad06-047ad5b91754")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0df2a12-6420-4c48-bc04-4133bd9f3a29")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property ki_fp_filters "SM* C? C1-1")
+		(path "/611c3345-034a-430d-94bb-da8223ddf59d")
+		(sheetname "Główny")
+		(sheetfile "Nostalgia.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.8 -0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9d51e855-5ec9-4145-8e81-78921bd62288")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "17979229-5ace-409b-97bf-a45bbaa9ac8c")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ac7be0c-8e09-4d51-851b-98aaaba19ecf")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4cb1e333-b7e2-4b2d-bc24-dd85291362fe")
+		)
+		(pad "1" smd rect
+			(at -0.75 0)
+			(size 0.6 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "5V")
+			(pintype "passive")
+			(uuid "b538fc0e-603e-44bd-bda0-f5160b4b83aa")
+		)
+		(pad "2" smd rect
+			(at 0.75 0)
+			(size 0.6 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "a68163ce-bfa5-4f57-8823-5df2a1a760dd")
+		)
+		(model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4661,6 +4823,395 @@
 			(net 1 "GND")
 			(pintype "passive")
 			(uuid "1a1851ab-4333-4ca3-8ec5-879458e0b7e8")
+		)
+		(model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "_custom:SOT23-5"
+		(layer "F.Cu")
+		(uuid "638b3b01-8007-42c2-bcca-ba15a0d35b97")
+		(at 129.2975 0.55664)
+		(descr "SOT23-5")
+		(property "Reference" "U5"
+			(at 2.1 0 90)
+			(layer "F.SilkS")
+			(uuid "ba65cd7a-df90-419a-9750-4f1a7d018fa4")
+			(effects
+				(font
+					(size 0.50038 0.50038)
+					(thickness 0.09906)
+				)
+			)
+		)
+		(property "Value" "TPS613222ADBV"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f2928e91-607c-41c2-b2a8-2b58fff9c8d5")
+			(effects
+				(font
+					(size 0.50038 0.50038)
+					(thickness 0.09906)
+				)
+			)
+		)
+		(property "Footprint" "_custom:SOT23-5"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3370a88c-f95e-4d09-8083-a4484d390bb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90afcb86-a036-4832-b7f0-c77cf952b78d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68550e20-b4b8-4499-a8fe-77567af70849")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a334cc15-49ed-4c13-9ee4-c2e7630191e7")
+		(sheetname "Główny")
+		(sheetfile "Nostalgia.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.4986 -0.6985)
+			(end 1.4986 -0.6985)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1ea37437-fa46-4eb3-8dbd-91f7119a8c54")
+		)
+		(fp_line
+			(start -1.4986 0.6985)
+			(end -1.4986 -0.6985)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2520307c-3f02-4823-8106-5acc72ba99a7")
+		)
+		(fp_line
+			(start -1.0033 0.6985)
+			(end -1.4986 0.2032)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85887ec0-e24c-4d4a-9d83-6ab4aaa1d340")
+		)
+		(fp_line
+			(start -0.9525 -0.6985)
+			(end -0.9525 -1.3589)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0bfa283e-63c0-45bf-8a8a-a8750a67c3a0")
+		)
+		(fp_line
+			(start -0.9525 0.6985)
+			(end -0.9525 1.3589)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7772d98-436c-42b4-9f88-6684b999d718")
+		)
+		(fp_line
+			(start -0.8509 0.6985)
+			(end -1.4986 0.0508)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95fb6cea-6211-4671-9aee-2feafcfb9336")
+		)
+		(fp_line
+			(start 0 0.6985)
+			(end 0 1.3589)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f8bc37d-d5f5-4dc7-8805-c2796055aff5")
+		)
+		(fp_line
+			(start 0.9525 -0.6985)
+			(end 0.9525 -1.3589)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "17f840d3-aab1-4c34-bb16-f41eb169b5a8")
+		)
+		(fp_line
+			(start 0.9525 0.6985)
+			(end 0.9525 1.3589)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e383d625-7462-462d-b698-aeac18a266c5")
+		)
+		(fp_line
+			(start 1.4986 -0.6985)
+			(end 1.4986 0.6985)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4ed166b-4297-42dd-8139-2c6295bbc8ca")
+		)
+		(fp_line
+			(start 1.4986 0.6985)
+			(end -1.4986 0.6985)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9452a060-2be2-4824-a308-f18833dd82cd")
+		)
+		(pad "1" smd rect
+			(at -0.9525 1.05664)
+			(size 0.59944 1.00076)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 84 "Net-(U5-SW)")
+			(pinfunction "SW")
+			(pintype "passive")
+			(uuid "1e258ad5-8022-400d-bef2-eeb46cde7a3d")
+		)
+		(pad "2" smd rect
+			(at 0 1.05664)
+			(size 0.59944 1.00076)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "7c886a0e-d271-4587-bdc4-c877c66b5ab5")
+		)
+		(pad "3" smd rect
+			(at 0.9525 1.05664)
+			(size 0.59944 1.00076)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "e28b72a1-39b6-4f73-a3d6-9407518e0082")
+		)
+		(pad "4" smd rect
+			(at 0.9525 -1.05664)
+			(size 0.59944 1.00076)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "5V")
+			(pinfunction "OUT")
+			(pintype "passive")
+			(uuid "ce6f1d30-4973-455e-a755-c8f80f889fd3")
+		)
+		(pad "5" smd rect
+			(at -0.9525 -1.05664)
+			(size 0.59944 1.00076)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "7d0bb04c-6477-4ff4-a958-a61d0776eef6")
+		)
+		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
+	)
+	(footprint "_custom:C_0603"
+		(layer "F.Cu")
+		(uuid "6dd512c6-5076-4fa1-a17d-a01acc8dc76e")
+		(at 125.6854 3.37462)
+		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
+		(tags "capacitor 0603")
+		(property "Reference" "C10"
+			(at 0 -1.1 0)
+			(layer "F.SilkS")
+			(uuid "033e8ee5-c6d2-4ae2-be8d-2dd4612b6d39")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5bce83b5-c4a8-4313-a1e6-7c672a685ce4")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Footprint" "_custom:C_0603"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba1e4014-ae73-4fa8-a509-879e2c4be4d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36d8d52a-252a-47b4-b4f4-46b8a8df1053")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06424032-eb75-44b7-ac66-cafa412a7148")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "918d1a6b-4cf7-42fc-9788-e67000d7a820")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7d79ea2-ed19-49c0-9d43-12a633f522ae")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property ki_fp_filters "SM* C? C1-1")
+		(path "/73ccbc80-1281-48ad-87c8-7d81dd274f24")
+		(sheetname "Główny")
+		(sheetfile "Nostalgia.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.8 -0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "62b624a5-4ca9-496e-ba21-c84073c9cefd")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "796eb1a0-aea5-4c9a-963c-4bcd9805d01b")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2087ca1f-319d-457d-9935-db514f3ccae9")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "390b92b6-c3a7-4f19-b276-9e87f320f9c4")
+		)
+		(pad "1" smd rect
+			(at -0.75 0)
+			(size 0.6 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 44 "VBAT")
+			(pintype "passive")
+			(uuid "ce9c69b0-4142-4bd0-9d42-518491e351b0")
+		)
+		(pad "2" smd rect
+			(at 0.75 0)
+			(size 0.6 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "81e60795-6792-4193-a5a4-0f5b16772c2f")
 		)
 		(model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
@@ -10060,6 +10611,167 @@
 			(uuid "70240189-8928-49da-a267-2d6afee45503")
 		)
 		(model "${KICAD7_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "_custom:C_0603"
+		(layer "F.Cu")
+		(uuid "f36e72ee-62f5-46f1-afaa-29302619d27d")
+		(at 125.6854 -0.52538)
+		(descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
+		(tags "capacitor 0603")
+		(property "Reference" "C4"
+			(at 0 -1.1 0)
+			(layer "F.SilkS")
+			(uuid "4c9897fa-2ec6-4b93-bd83-ac653e65117e")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fd0d1680-7147-4b08-b68a-c7542ef09266")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Footprint" "_custom:C_0603"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca2b3920-85a4-4700-aa05-55200a3ea886")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca622734-b488-487b-9530-069b9107c5dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f80d834b-3928-4a64-a157-5f4a5214346c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d0ad5ef-1d0b-4258-99c7-1f12611f9f5b")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Link" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bc62729-33d0-4266-940d-8faa875f2faf")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property ki_fp_filters "SM* C? C1-1")
+		(path "/7409b7fd-9dcf-492f-97b7-40c2c3979664")
+		(sheetname "Główny")
+		(sheetfile "Nostalgia.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.8 -0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1fe51977-f291-4c65-8855-c8a61b1e0fec")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cea0141e-45e1-4bb6-9930-ae864ac14be3")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92992654-350e-405b-8d5b-0933c2faf3ff")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ac5d218-2f4e-4aba-bb39-10b83d08f288")
+		)
+		(pad "1" smd rect
+			(at -0.75 0)
+			(size 0.6 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "5V")
+			(pintype "passive")
+			(uuid "ed492895-45ff-48c0-954b-eeade88cf849")
+		)
+		(pad "2" smd rect
+			(at 0.75 0)
+			(size 0.6 0.95)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "4d034711-13cf-4df0-8d4a-ce54a54e7867")
+		)
+		(model "${KICAD7_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
