@@ -5987,6 +5987,46 @@
 		)
 		(uuid "14be0fe7-4f92-4458-893e-9bf84632490e")
 	)
+	(label "Row2"
+		(at 76.2 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17a6c300-27cf-45bf-9ac7-50eeb2685ad1")
+	)
+	(label "Col0"
+		(at 76.2 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cee432c-40d4-43bd-aec5-a94866056beb")
+	)
+	(label "Row0"
+		(at 76.2 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55b06f33-3e2c-4472-a099-f969dd16ad7e")
+	)
+	(label "Col3"
+		(at 76.2 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a22146a-42f7-4800-b141-17213516f6e0")
+	)
 	(label "5V"
 		(at 88.9 135.89 0)
 		(effects
@@ -6057,6 +6097,16 @@
 		)
 		(uuid "971fc4b5-431a-4de4-98cc-41e043cb3b42")
 	)
+	(label "Row3"
+		(at 76.2 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a01ed7e5-6384-4155-8605-a9425c5be630")
+	)
 	(label "Debug-Rx"
 		(at 77.47 151.13 180)
 		(effects
@@ -6067,6 +6117,26 @@
 		)
 		(uuid "a9d06dac-2cb4-42af-a9fe-6ac4cd85bb3d")
 	)
+	(label "VBatMeas"
+		(at 76.2 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa2d499e-ef7f-432d-94b3-ebf578373eaf")
+	)
+	(label "Row1"
+		(at 76.2 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b82b0edb-502b-462e-9045-cce8e473699c")
+	)
 	(label "SDA"
 		(at 88.9 140.97 0)
 		(effects
@@ -6076,6 +6146,26 @@
 			(justify left bottom)
 		)
 		(uuid "c33d5f5a-8a43-4300-9a10-7c7a386ee042")
+	)
+	(label "Col2"
+		(at 76.2 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd00807f-024e-44b0-8107-a73dc0524420")
+	)
+	(label "Col1"
+		(at 76.2 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da7f85d7-06cb-4d8f-86b3-82420014bca5")
 	)
 	(label "Debug-Rx"
 		(at 29.21 185.42 0)
