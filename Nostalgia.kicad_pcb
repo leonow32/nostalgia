@@ -1604,7 +1604,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "2b7b7c3b-7706-4a71-8004-7300355842fb")
-		(at 35 -8)
+		(at 36 -11)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K11"
 			(at 0 2.25 0)
@@ -3071,7 +3071,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "4968f844-ec94-4753-a4df-623638269cbc")
-		(at 52 -22)
+		(at 59 -25)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K6"
 			(at 0 2.25 0)
@@ -3331,7 +3331,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "5242d0e9-1903-46f1-b795-4311f47abc18")
-		(at 35 -15.25)
+		(at 36 -18.25)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K8"
 			(at 0 2.25 0)
@@ -3752,7 +3752,7 @@
 	(footprint "_custom:TACT_6x6_SMD"
 		(layer "F.Cu")
 		(uuid "582510ba-e918-4328-80c6-4ed2f0b009e4")
-		(at 35 -45.25 180)
+		(at 36 -49 180)
 		(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 		(tags "SPST Button Switch")
 		(property "Reference" "K14"
@@ -4329,7 +4329,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "5ce36907-d704-4c32-bcf7-9dcf83a49f38")
-		(at 18 -8)
+		(at 13 -11)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K10"
 			(at 0 2.25 0)
@@ -5634,7 +5634,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "75bc94e4-0fe0-44f7-8a15-2c38276a2aad")
-		(at 35 -22)
+		(at 36 -25)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K5"
 			(at 0 2.25 0)
@@ -5894,7 +5894,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "777f4d03-68e9-4b98-b799-b085fba8a797")
-		(at 18 -15)
+		(at 13 -18)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K7"
 			(at 0 2.25 0)
@@ -6772,7 +6772,7 @@
 	(footprint "_custom:TACT_6x6_SMD"
 		(layer "F.Cu")
 		(uuid "867f2236-4904-49e3-b567-b82dda57dbf6")
-		(at 52 -41.25)
+		(at 59 -45)
 		(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 		(tags "SPST Button Switch")
 		(property "Reference" "K16"
@@ -7056,7 +7056,7 @@
 	(footprint "_custom:TACT_6x6_SMD"
 		(layer "F.Cu")
 		(uuid "8f6bbefd-8d71-4f7e-99be-1ec6f80c4acd")
-		(at 35 -37.25)
+		(at 36 -41)
 		(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 		(tags "SPST Button Switch")
 		(property "Reference" "K15"
@@ -7340,7 +7340,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "9b73e02e-810d-4753-a97e-b6cd49d9314e")
-		(at 18 -22)
+		(at 13 -25)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K4"
 			(at 0 2.25 0)
@@ -7600,12 +7600,12 @@
 	(footprint "_custom:OLED_2.42inch_board_2"
 		(layer "F.Cu")
 		(uuid "9d4cd39f-eec2-4b15-84a8-18b87cfffaf3")
-		(at 35.5 -80.25)
+		(at 36 -80.25)
 		(property "Reference" "DISP2"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1f9aa312-b627-485d-8700-4e65a96b4867")
+			(uuid "516d774d-dae1-440a-a428-2320e415d0e2")
 			(effects
 				(font
 					(size 1 1)
@@ -7617,7 +7617,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "36b169b3-360f-4a66-ac2e-70cf1e5d4830")
+			(uuid "55d91aa5-03b9-4ca9-a850-4cac22067527")
 			(effects
 				(font
 					(size 1 1)
@@ -7630,7 +7630,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "718f0e34-1ea3-44b1-9a1a-831b96444bcb")
+			(uuid "f7d854d0-e0d8-4eb2-8ec9-35378ff81bb7")
 			(effects
 				(font
 					(size 1 1)
@@ -7643,7 +7643,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa1b31a5-8b26-4778-9a37-7df0a10717dc")
+			(uuid "e2168bf8-ff13-487f-8191-4bd82782e50c")
 			(effects
 				(font
 					(size 1 1)
@@ -7656,7 +7656,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68d538b2-6850-4b32-a8a7-47a5321bc648")
+			(uuid "6c7ed1c8-be19-4db3-9466-e80c590b3873")
 			(effects
 				(font
 					(size 1 1)
@@ -7676,7 +7676,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "537b5246-f567-46c1-b8c3-c467e4747ff2")
+			(uuid "28079572-42bd-453b-b46f-5b0c809fede4")
 		)
 		(fp_line
 			(start -35.5 -21.7)
@@ -7686,7 +7686,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c39433b0-4643-42e0-a6eb-68a13f2fa3d9")
+			(uuid "e8f86b32-8b69-4a03-9dcc-8af74b731f0e")
 		)
 		(fp_line
 			(start -35.5 21.7)
@@ -7696,7 +7696,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ae799fed-4374-4705-87de-84e03286c5d9")
+			(uuid "fcf7c3df-fad8-464c-96ff-cb87b7eedb64")
 		)
 		(fp_line
 			(start 35.5 -21.7)
@@ -7706,123 +7706,123 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "600e680f-4f59-4184-88a8-6e662c019b44")
+			(uuid "3d8bb1de-786b-400d-b3c9-6ad7e0a3478b")
 		)
 		(fp_line
-			(start -31 -19.5)
-			(end -31 19.5)
+			(start -31 -18.8)
+			(end -31 20.2)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "871c5116-579e-4610-84ff-9313819a6e7a")
+			(uuid "ee447423-1369-42a4-a790-c3222445e7c7")
 		)
 		(fp_line
-			(start -19 19.5)
-			(end -31 19.5)
+			(start -19 20.2)
+			(end -31 20.2)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "398e0245-0403-4e18-a60c-69b81a6ca8ea")
+			(uuid "4dc5786f-3964-4b9f-ad7b-26f464bb21ab")
 		)
 		(fp_line
-			(start -19 19.5)
-			(end -18 20.5)
+			(start -19 20.2)
+			(end -18 21.2)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "0027263c-2a30-4224-ae74-3b1db53ea627")
+			(uuid "bba68eff-4de7-42be-b0e1-c973fa1e4150")
 		)
 		(fp_line
-			(start -18 20.5)
-			(end 18 20.5)
+			(start -18 21.2)
+			(end 18 21.2)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "1735741c-dc78-46dd-b184-58757392f447")
+			(uuid "7b3ef8c9-2133-4fe9-afee-b62ed3336cf1")
 		)
 		(fp_line
-			(start 19 19.5)
-			(end 18 20.5)
+			(start 19 20.2)
+			(end 18 21.2)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "9a15f371-1c45-442f-aede-f4cb51981d37")
+			(uuid "8fecd3d8-c591-4841-9204-9879c0ab2344")
 		)
 		(fp_line
-			(start 31 -19.5)
-			(end -31 -19.5)
+			(start 31 -18.8)
+			(end -31 -18.8)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "16597959-b32f-4b96-bd1b-4b1f2f713fb4")
+			(uuid "983e002e-f7f3-4de2-a744-2d3a1d00e1d9")
 		)
 		(fp_line
-			(start 31 19.5)
-			(end 19 19.5)
+			(start 31 20.2)
+			(end 19 20.2)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "9e4ee042-2496-46b1-b52d-a6d0494f2375")
+			(uuid "4f6e9b34-1be5-4cc8-a068-e03fcaa83714")
 		)
 		(fp_line
-			(start 31 19.5)
-			(end 31 -19.5)
+			(start 31 20.2)
+			(end 31 -18.8)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "5abf7e05-f6b6-4ccb-b5d0-58cf2eeee705")
+			(uuid "52b24760-2464-4c45-abff-4e084ad85da7")
 		)
 		(fp_rect
-			(start -28.75 -17.5)
-			(end 28.75 12)
+			(start -28.75 -16.8)
+			(end 28.75 12.7)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill none)
 			(layer "Dwgs.User")
-			(uuid "3680cbc9-88c0-4673-ae77-d8a6d430f7ea")
+			(uuid "cfed2861-96cb-45dc-900e-51787234790a")
 		)
 		(pad "1" thru_hole circle
-			(at -32.5 -21.5)
+			(at -33.5 -19.75)
 			(size 4 4)
-			(drill 3)
+			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 55 "unconnected-(DISP2-Pin_1-Pad1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "084fbd88-54d1-4e8c-a59d-cb4d829be2af")
+			(uuid "2c5022dd-4308-4cbc-b77d-c551b47a2379")
 		)
 		(pad "1" thru_hole circle
-			(at -32.5 21.25)
+			(at -33.5 19.75)
 			(size 4 4)
-			(drill 3)
+			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 55 "unconnected-(DISP2-Pin_1-Pad1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "03c9616d-072d-4027-ba9a-d6212b8d1a14")
+			(uuid "fa2946ea-d5ab-47d4-a1c6-a4724e964aed")
 		)
 		(pad "1" thru_hole oval
-			(at 7.62 -20.5 90)
+			(at 7.62 -20.3 90)
 			(size 2.8 1.8)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7830,32 +7830,32 @@
 			(net 55 "unconnected-(DISP2-Pin_1-Pad1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "ee173c9e-d206-46a0-b048-ab329f08acdf")
+			(uuid "9eb40919-2611-4999-bfa9-59bffcbd385a")
 		)
 		(pad "1" thru_hole circle
-			(at 32.5 -21.25)
+			(at 33.5 -19.75)
 			(size 4 4)
-			(drill 3)
+			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 55 "unconnected-(DISP2-Pin_1-Pad1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "b3068894-167d-4767-be46-d305b66a98be")
+			(uuid "8e18405c-18f1-4093-9b9e-0f71411fd0c8")
 		)
 		(pad "1" thru_hole circle
-			(at 32.5 21.25)
+			(at 33.5 19.75)
 			(size 4 4)
-			(drill 3)
+			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 55 "unconnected-(DISP2-Pin_1-Pad1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "c6eec1d5-a969-4cb6-baac-d98cfb2c36f1")
+			(uuid "548af44c-e740-4a7b-a4d3-6f34c91a7d49")
 		)
 		(pad "2" thru_hole oval
-			(at 5.08 -20.5 90)
+			(at 5.08 -20.3 90)
 			(size 2.8 1.8)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7863,10 +7863,10 @@
 			(net 59 "unconnected-(DISP2-Pin_2-Pad2)")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "b8cfe5b5-607a-4b41-8030-9ca7ed18cb0a")
+			(uuid "6e89b297-cb76-4b91-a7a0-1fa70095f208")
 		)
 		(pad "3" thru_hole oval
-			(at 2.54 -20.5 90)
+			(at 2.54 -20.3 90)
 			(size 2.8 1.8)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7874,10 +7874,10 @@
 			(net 56 "unconnected-(DISP2-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "2d7fd761-a305-4e67-854e-ec67d14c8c17")
+			(uuid "11201c93-4f8f-4330-8d8a-b52d6a9e3f75")
 		)
 		(pad "4" thru_hole oval
-			(at 0 -20.5 90)
+			(at 0 -20.3 90)
 			(size 2.8 1.8)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7885,10 +7885,10 @@
 			(net 60 "unconnected-(DISP2-Pin_4-Pad4)")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "b95c3acd-0b9a-4f08-a8a3-0c5c0ec2d0e8")
+			(uuid "9d575412-cc5d-4705-af19-e3abb0c4420c")
 		)
 		(pad "5" thru_hole oval
-			(at -2.54 -20.5 90)
+			(at -2.54 -20.3 90)
 			(size 2.8 1.8)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7896,10 +7896,10 @@
 			(net 61 "unconnected-(DISP2-Pin_5-Pad5)")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "ed75f6e2-64e4-4665-a79a-36aca67292b6")
+			(uuid "2a7434a1-a50f-4e37-94b9-2c61958b9393")
 		)
 		(pad "6" thru_hole oval
-			(at -5.08 -20.5 90)
+			(at -5.08 -20.3 90)
 			(size 2.8 1.8)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7907,10 +7907,10 @@
 			(net 57 "unconnected-(DISP2-Pin_6-Pad6)")
 			(pinfunction "Pin_6")
 			(pintype "passive")
-			(uuid "43b99e97-980f-48cb-ba4f-45cc82dc82b7")
+			(uuid "da785d62-3515-4c80-8dd4-65f2415bc94e")
 		)
 		(pad "7" thru_hole oval
-			(at -7.62 -20.5 90)
+			(at -7.62 -20.3 90)
 			(size 2.8 1.8)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7918,7 +7918,7 @@
 			(net 58 "unconnected-(DISP2-Pin_7-Pad7)")
 			(pinfunction "Pin_7")
 			(pintype "passive")
-			(uuid "6bb80a3d-982b-4e6e-b6b9-ce1409a9624b")
+			(uuid "dedc31fd-2a98-41b1-b84f-8a66f8ad095a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA-eDIP128B-XXX.step"
 			(offset
@@ -8096,7 +8096,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "a9b5cae9-8f5b-4030-acbc-2299d7c2ca27")
-		(at 18 -29)
+		(at 13 -32)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K1"
 			(at 0 2.25 0)
@@ -8678,7 +8678,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "bcc5cf9f-1e5e-468e-b938-d4f741bd46ae")
-		(at 52 -29)
+		(at 59 -32)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K3"
 			(at 0 2.25 0)
@@ -8938,7 +8938,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "c4b39b26-6e3b-4406-8686-aecf3b621b45")
-		(at 35 -29)
+		(at 36 -32)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K2"
 			(at 0 2.25 0)
@@ -10074,7 +10074,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "d89fa546-0bfd-4683-9e18-5bfc282842c7")
-		(at 52 -15.25)
+		(at 59 -18.25)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K9"
 			(at 0 2.25 0)
@@ -10495,7 +10495,7 @@
 	(footprint "_custom:TACT_6x3_SMD"
 		(layer "F.Cu")
 		(uuid "e762d8fd-2478-4c4f-9c8e-cad6ced3bf60")
-		(at 52 -8)
+		(at 59 -11)
 		(descr "SMD Pushbutton")
 		(property "Reference" "K12"
 			(at 0 2.25 0)
@@ -11004,7 +11004,7 @@
 	(footprint "_custom:TACT_6x6_SMD"
 		(layer "F.Cu")
 		(uuid "f1661894-0357-4df7-963e-80ff669cad58")
-		(at 18 -41.25)
+		(at 13 -45)
 		(descr "C&K Components SPST SMD PTS645 Series 6mm Tact Switch")
 		(tags "SPST Button Switch")
 		(property "Reference" "K13"
@@ -11449,7 +11449,7 @@
 	(footprint "_custom:Bat_BH-18650-A1AJ005"
 		(layer "B.Cu")
 		(uuid "013bac6e-bb84-4589-aadf-9cc8215f5e90")
-		(at 35.5 -38.25 90)
+		(at 36 -38.25 90)
 		(property "Reference" "BAT2"
 			(at 39 0 0)
 			(layer "B.SilkS")
@@ -12889,7 +12889,7 @@
 	(footprint "_custom:Bat_BH-18650-A1AJ005"
 		(layer "B.Cu")
 		(uuid "acc4fa30-6bc6-46e0-b777-c74daedea6e1")
-		(at 12.5 -38.25 90)
+		(at 13 -38.25 90)
 		(property "Reference" "BAT1"
 			(at 39 0 0)
 			(layer "B.SilkS")
@@ -13524,7 +13524,7 @@
 	(footprint "_custom:Bat_BH-18650-A1AJ005"
 		(layer "B.Cu")
 		(uuid "f64a9cb8-d3ae-415a-8760-95182de927bd")
-		(at 58.5 -38.25 90)
+		(at 59 -38.25 90)
 		(property "Reference" "BAT3"
 			(at 39 0 0)
 			(layer "B.SilkS")
@@ -13934,7 +13934,7 @@
 	)
 	(gr_line
 		(start 0 0)
-		(end 71 0)
+		(end 72 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13953,8 +13953,8 @@
 		(uuid "520ae5d8-5f4f-481e-b8eb-f1951472bdf2")
 	)
 	(gr_line
-		(start 71 0)
-		(end 71 -102)
+		(start 72 0)
+		(end 72 -102)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13963,7 +13963,7 @@
 		(uuid "727a2287-cf19-45b7-9c45-94afcbf77bfa")
 	)
 	(gr_line
-		(start 71 -102)
+		(start 72 -102)
 		(end 0 -102)
 		(stroke
 			(width 0.1)
