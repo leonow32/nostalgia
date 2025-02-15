@@ -7600,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 223.52 36.83 0)
 			(effects
 				(font
@@ -8372,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 223.52 45.72 0)
 			(effects
 				(font
@@ -8854,7 +8854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 236.22 63.5 0)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 248.92 63.5 0)
 			(effects
 				(font
@@ -9790,7 +9790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 223.52 63.5 0)
 			(effects
 				(font
@@ -10568,7 +10568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 236.22 54.61 0)
 			(effects
 				(font
@@ -11618,7 +11618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 223.52 54.61 0)
 			(effects
 				(font
@@ -13275,7 +13275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 248.92 36.83 0)
 			(effects
 				(font
@@ -13653,7 +13653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 236.22 36.83 0)
 			(effects
 				(font
@@ -13719,7 +13719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 236.22 45.72 0)
 			(effects
 				(font
@@ -13933,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -14964,7 +14964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_custom:TACT_6x3_SMD"
+		(property "Footprint" "_custom:TACT_6x6_SMD"
 			(at 248.92 45.72 0)
 			(effects
 				(font
