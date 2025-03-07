@@ -4775,6 +4775,10 @@
 		(at 63.5 129.54)
 		(uuid "c26ddde4-4f02-48d5-9adc-b4e840d4b65a")
 	)
+	(no_connect
+		(at 217.17 58.42)
+		(uuid "c873bb8c-516a-42bf-96a7-622966ef0a5f")
+	)
 	(wire
 		(pts
 			(xy 342.9 120.65) (xy 342.9 121.92)
@@ -4927,6 +4931,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 58.42) (xy 213.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0b9a25-1ed2-4110-a843-432caa5039e0")
+	)
+	(wire
+		(pts
 			(xy 139.7 64.77) (xy 139.7 69.85)
 		)
 		(stroke
@@ -5064,6 +5078,16 @@
 			(type default)
 		)
 		(uuid "1e2fa9af-85c3-4488-a22f-ce3e34e273b1")
+	)
+	(wire
+		(pts
+			(xy 209.55 60.96) (xy 217.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b16152-0081-4db9-93f9-21c721de7136")
 	)
 	(wire
 		(pts
@@ -5787,6 +5811,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 55.88) (xy 217.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdaf796-f2dc-407b-8491-5377f57f5244")
+	)
+	(wire
+		(pts
 			(xy 123.19 139.7) (xy 123.19 140.97)
 		)
 		(stroke
@@ -5914,6 +5948,16 @@
 			(type default)
 		)
 		(uuid "79d9e3c9-5723-48e6-ab14-3e432652cce5")
+	)
+	(wire
+		(pts
+			(xy 209.55 63.5) (xy 217.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5473f2-9959-4604-8f95-ee05a3b16a60")
 	)
 	(wire
 		(pts
@@ -6047,6 +6091,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 66.04) (xy 217.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d601fc6-d681-4453-aff1-b34b057274c4")
+	)
+	(wire
+		(pts
 			(xy 196.85 147.32) (xy 204.47 147.32)
 		)
 		(stroke
@@ -6114,6 +6168,16 @@
 			(type default)
 		)
 		(uuid "954dfffb-75bb-4ea1-9910-492f7dcedb37")
+	)
+	(wire
+		(pts
+			(xy 210.82 68.58) (xy 217.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969095af-54a5-4f45-a9f4-364476477d2e")
 	)
 	(wire
 		(pts
@@ -6404,6 +6468,16 @@
 			(type default)
 		)
 		(uuid "b5b8d200-d782-42e7-a08d-45878a1bfb74")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 217.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89b55cd-a127-4d9f-aebd-163820d4bb90")
 	)
 	(wire
 		(pts
@@ -7265,6 +7339,16 @@
 		)
 		(uuid "06721145-dfce-4049-95eb-3404c0fc8503")
 	)
+	(label "DispReset"
+		(at 203.2 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09145868-9555-484a-9493-e031b7b5257e")
+	)
 	(label "Row0"
 		(at 106.68 60.96 0)
 		(effects
@@ -7305,6 +7389,16 @@
 		)
 		(uuid "2562d7ce-1ba7-430b-a2e2-8472624d7221")
 	)
+	(label "3V3"
+		(at 210.82 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25df1c86-ed2c-49d5-be64-b083f11919fe")
+	)
 	(label "SCL"
 		(at 77.47 158.75 180)
 		(effects
@@ -7344,6 +7438,16 @@
 			(justify right bottom)
 		)
 		(uuid "342562be-ed1f-449d-8010-b142a40e38f3")
+	)
+	(label "SCL"
+		(at 209.55 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41db9ca0-9976-40a5-8a77-f59d686745c4")
 	)
 	(label "SDA"
 		(at 77.47 161.29 180)
@@ -7465,6 +7569,16 @@
 		)
 		(uuid "971fc4b5-431a-4de4-98cc-41e043cb3b42")
 	)
+	(label "GND"
+		(at 210.82 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d128934-3f71-4a97-a0ee-ad1515b1673b")
+	)
 	(label "Row3"
 		(at 76.2 80.01 180)
 		(effects
@@ -7545,6 +7659,16 @@
 		)
 		(uuid "b906393d-b5ff-4365-94ac-8f0e51436439")
 	)
+	(label "SDA"
+		(at 209.55 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd70d0e6-9a9b-4b05-852f-74c1eb1e6494")
+	)
 	(label "ButtonUp"
 		(at 163.83 44.45 0)
 		(effects
@@ -7584,6 +7708,16 @@
 			(justify right bottom)
 		)
 		(uuid "c6d58c07-f79c-4896-9618-867cb415d629")
+	)
+	(label "3V3"
+		(at 210.82 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca59ab7f-679a-4935-ae90-302b3cf28288")
 	)
 	(label "Col2"
 		(at 76.2 87.63 180)
@@ -7634,6 +7768,16 @@
 			(justify left bottom)
 		)
 		(uuid "de0c6ea8-c582-4ea9-a875-7faef66077c7")
+	)
+	(label "GND"
+		(at 210.82 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea456a74-b75a-43b5-8a91-e61d6ee9baf2")
 	)
 	(label "Col2"
 		(at 106.68 49.53 0)
