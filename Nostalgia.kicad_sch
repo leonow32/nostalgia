@@ -4748,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 60.96) (xy 217.17 60.96)
+			(xy 210.82 63.5) (xy 217.17 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5608,7 +5608,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 55.88) (xy 217.17 55.88)
+			(xy 210.82 68.58) (xy 217.17 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5768,7 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 63.5) (xy 217.17 63.5)
+			(xy 210.82 60.96) (xy 217.17 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5938,7 +5938,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 217.17 66.04)
+			(xy 210.82 55.88) (xy 217.17 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6038,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 68.58) (xy 217.17 68.58)
+			(xy 210.82 53.34) (xy 217.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6378,7 +6378,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 53.34) (xy 217.17 53.34)
+			(xy 210.82 66.04) (xy 217.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7616,7 +7616,7 @@
 		(uuid "2562d7ce-1ba7-430b-a2e2-8472624d7221")
 	)
 	(label "3V3"
-		(at 210.82 53.34 0)
+		(at 210.82 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7696,7 +7696,7 @@
 		(uuid "3d29fc78-7842-4e40-a6fa-a8690e320510")
 	)
 	(label "SCL"
-		(at 209.55 63.5 0)
+		(at 210.82 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7946,7 +7946,7 @@
 		(uuid "971fc4b5-431a-4de4-98cc-41e043cb3b42")
 	)
 	(label "GND"
-		(at 210.82 55.88 0)
+		(at 210.82 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8056,7 +8056,7 @@
 		(uuid "b906393d-b5ff-4365-94ac-8f0e51436439")
 	)
 	(label "SDA"
-		(at 209.55 60.96 0)
+		(at 210.82 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8136,7 +8136,7 @@
 		(uuid "c9f80710-89d4-4c37-a1a3-d37c4d0a95eb")
 	)
 	(label "3V3"
-		(at 210.82 68.58 0)
+		(at 210.82 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8226,7 +8226,7 @@
 		(uuid "e432410a-a953-4500-8c6c-c545f687a9e1")
 	)
 	(label "GND"
-		(at 210.82 66.04 0)
+		(at 210.82 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15660,6 +15660,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 222.25 60.96 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15667,7 +15668,7 @@
 		(dnp no)
 		(uuid "e32b4292-8fd6-44b9-98af-a5566ed6635d")
 		(property "Reference" "DISP1"
-			(at 222.25 50.8 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15675,7 +15676,7 @@
 			)
 		)
 		(property "Value" "OLED"
-			(at 222.25 71.12 0)
+			(at 222.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
